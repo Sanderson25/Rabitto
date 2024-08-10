@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Banho e tosa</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+            border: 0;
+            margin: 0;
+            padding: 0;
+            background-image: url('banho e tosa.png');
+            background-size: cover;
+            }
+
+            .icons{
+            display: flex;
+            justify-content: flex-end;
+            justify-items: center;
+            padding: 8px;
+            }
+
+            .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 16px;
+        }
+
+        .cards div {
+            background-color: whitesmoke; 
+            padding: 10px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            border-radius: 8px; 
+            box-shadow: 7px 7px 13px 0 black;
+            margin-top: 40px;
+        }
+
+        .cards img {
+            max-width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+            .h3{
+            justify-content: center;
+            margin: 0; 
+            text-align: left; 
+            padding: 10px;
+            }
+
+            .hidden-link_rações {
+            position: absolute; 
+            top: 70px; 
+            right: 8px; 
+            width: 275px; 
+            height: 50px; 
+            z-index: 10;
+            opacity: 0; 
+            cursor: pointer; 
+        }   
+
+            .hidden-link_compras{
+            position: absolute; 
+            top: 70px; 
+            left: 8px; 
+            transform: translateX(285px);
+            width: 630px; 
+            height: 50px;
+            z-index: 10; 
+            opacity: 0; 
+            cursor: pointer; 
+        } 
+
+        </style>
+    </head>
+
+    <body>
+        <a href="rações.html" class="hidden-link_rações" target="_blank"></a>
+        <a href="rações.html" class="hidden-link_compras" target="_blank"></a>
+
+
+    <div class="icons">
+        <img src="shopping-cart.png" width="70px" height="55px">
+        <img src="email_icon.png" width="70px" height="55px">
+        <img src="user.png" width="70px" height="55px">
+    </div>
+
+    <div class="cards">
+        <div>
+            <img src="petshop_laranja.png">
+            <h3>Rua Laranja</h3>
+            <p>7:00 até 9:00</p>
+            <p>Veterinaria Joana</p>
+        </div>
+
+        <div>
+            <img src="petshop_azul.png">
+            <h3>Rua azul</h3>
+            <p>9:00 até 11:00</p>
+            <p>Veterinaria Larissa</p>
+        </div>
+
+        <div>
+            <img src="petshop_vermelho.png">
+            <h3>Rua vermelha</h3>
+            <p>11:00 até 14:00</p>
+            <P>Veterinario José</P>
+        </div>
+
+        <div>
+            <img src="petsop_roxo.jpeg">
+            <h3>Rua roxo</h3>
+            <p>14:00 até 16:00</p>
+            <P>Veterinario Cleiton</P>
+        </div>
+
+        <div>
+            <img src="petshop_preto.jpeg">
+            <h3>Rua preta</h3>
+            <p>18:00 até 20:00</p>
+            <P>Veterinaria Robera</P>
+        </div>
+
+    </div>
+    </body>
+    
+</html>
